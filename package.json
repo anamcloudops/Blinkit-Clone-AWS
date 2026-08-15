@@ -1,11 +1,24 @@
 {
-  "name": "jenkins-node-app",
+  "name": "blinkit-clone",
   "version": "1.0.0",
+  "description": "Blinkit Clone using Node.js and Express",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
+  "keywords": [
+    "blinkit",
+    "grocery",
+    "delivery",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
